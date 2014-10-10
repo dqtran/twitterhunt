@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Get scripts directory.
+DIR=$(cd $(dirname "$0"); pwd)
+
+
+# Print out info to the console
+echo ''
+echo 'Server for TwitterHunt'
+echo ''
+echo 'Get started by opening your browser and going to:'
+echo 'http://localhost:8000/'
+echo ''
+echo ''
+
+
+# run server from the correct directory
+cd $DIR
+php -S localhost:8000

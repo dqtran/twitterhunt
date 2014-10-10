@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.tweet{
+	width: 95%;
+	color: #000000;
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+h1{
+	font-size: 50px;
+	font-family: 'Roboto Slab', serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	width:100%;
+}
+
+hr{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
